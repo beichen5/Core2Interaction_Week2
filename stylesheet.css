@@ -1,0 +1,130 @@
+body{
+    color:#475ba4;
+    background-color: mistyrose;
+}
+.title {
+    font-family: Verdana, sans-serif;
+    font-size: 20pt;
+  }
+h2{
+    font-family: Helvetica, sans-serif;
+  }
+a{
+    color: #475ba4;
+}
+ul{
+List-style:none;
+}
+.my-button {
+    background-color: #bac3e2; 
+    border: none;
+    color: #475ba4;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+blockquote{
+    font-size: 25px;
+    padding-left: 3px;
+}
+.class-1 .class-2 {
+    color: blue;
+    font-size: 20px;
+}
+strong{
+    color:#475ba4;
+}
+p > strong {
+    color: #47a469;
+  }
+ol > ul{
+    color:#795dc1;
+}
+a:hover {
+    background-color: #bac3e2;
+}
+a:focus {
+    outline: 2px dashed moccasin;
+    outline-offset: 2px;
+    background-color: moccasin;
+}
+li:first-child {
+    background: #cec1ee;
+    font-weight: bold;
+}
+li:last-child {
+    background: #fbefcf;
+    font-weight: bold;
+}
+.prompt-20{
+    color:darkslategrey;
+}
+.prompt-21{
+    color:#76b5c5;
+}
+.prompt-22{
+    color:rgba(220,111,66,255);
+}
+.prompt-23{
+    color:hsla(207, 33%, 56%, 1);
+}
+.my-box26{
+    background-image: url(https://t4.ftcdn.net/jpg/05/52/20/61/360_F_552206181_KdToyQFo2ZSqBTv2aBiMUJcDVPXaaE3p.jpg);
+}
+.my-box27{
+    background-image:url(https://t4.ftcdn.net/jpg/05/52/20/61/360_F_552206181_KdToyQFo2ZSqBTv2aBiMUJcDVPXaaE3p.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.my-box29-1{
+    box-shadow:1rem 1rem #475ba4, -1rem -1rem #795dc1;
+}
+.my-box29-2{
+    box-shadow: 1px 5px 10px #475ba4;
+}
+.my-box30{
+    box-shadow: 1.6px 2px 3.1px -5px rgba(0, 0, 0, 0.033),
+    4.1px 5.1px 7.7px -5px rgba(0, 0, 0, 0.053),
+    8px 10px 14.9px -5px rgba(0, 0, 0, 0.067),
+    14.8px 18.5px 27.4px -5px rgba(0, 0, 0, 0.076),
+    28.1px 35.3px 52.6px -5px rgba(0, 0, 0, 0.087),
+    67px 84px 128px -5px rgba(0, 0, 0, 0.12)  
+}
+.invisible-ink > span{
+    opacity: 0%;
+}
+.invisible-ink > span:hover{
+    opacity: 100%;
+}
+.invisible-ink-2 > span{
+    color:mistyrose;
+    background-color: mistyrose;
+    transition: color 500ms ease;
+}
+.invisible-ink-2 > span:hover{
+    background-color:#475ba4;
+}
+.ebay-logo > span:nth-child(1) {
+    color: #d3413e;
+}
+.ebay-logo > span:nth-child(2) {
+    color: #2864cc;
+}
+.ebay-logo > span:nth-child(3) {
+    color: #ebb23d;
+}
+.ebay-logo > span:nth-child(4) {
+    color: #92b73b;
+}
+.img34-1{
+    transform: rotate(0.5turn) translate(100px, 20px);
+}
+.img34-2{
+    transform: translate(100px, 20px) rotate(0.5turn);
+}
+.img35{
+    filter: saturate(4);
+}
